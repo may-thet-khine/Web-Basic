@@ -30,6 +30,25 @@ ul{
     color:#ffffff;
 }
 
+.dark
+{
+    padding: 15px;
+    background:#35424a;
+    color:#ffffff;
+    margin-top:2px;
+    margin-bottom: 2px;
+}
+
+.quote
+{
+    height:300px;
+    background:#35424a;
+    border:0;
+    padding-left:50px;
+    padding-right:50px;
+    color:#ffffff;
+}
+
 
 /* Header */
 header
@@ -145,9 +164,24 @@ header a:hover
     width:90px;
 }
 
+/* Sidebar */
+aside#sidebar
+{
+    float: right;
+    width:200px;
+    margin-top:2px;
+}
+
+/* Main-col */
+article#main-col
+{
+    float: left;
+    width:65%
+}
+
 footer
 {
-    padding: 20px;
+    padding: 5px;
     margin-top: 20px;
     color:#ffffff;
     background-color:#e8491d;
