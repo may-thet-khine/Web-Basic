@@ -1,0 +1,122 @@
+
+
+/* Motivo_WEB_PC */
+.bodyWeb
+{
+    position: relative;
+    width: 1600px;
+    height: 6957px;
+    background: #FFFFFF;
+}
+
+
+/* Global */
+.container
+{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+ul{
+    margin:0;
+    padding:0;
+}
+
+header li
+{
+  float:left;
+  display:inline;
+  padding: 0 5px 0 5px;
+}
+
+header #top
+{
+ 
+position: absolute;
+height: 17px;
+left: 8.88%;
+right: 78.62%;
+top: calc(50% - 17px/2 - 3412px);
+
+font-family: Helvetica;
+font-size: 15px;
+line-height: 733%;
+/* or 733% */
+
+display: flex;
+align-items: center;
+letter-spacing: 5px;
+
+color: rgb(0, 4, 7);
+
+}    
+
+header nav
+{
+    position: absolute;
+    left: 65.19%;
+    right: -0.69%;
+    top: 0.75%;
+    bottom: 98.92%;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    
+}
+
+titlepos
+{ 
+ position: absolute;
+ left: 11.06%;
+ right: 41.5%;
+ top: 2.6%;
+ bottom: 93.11%;
+    
+}
+/* titleshow*/
+titleshow
+{
+    position: absolute;
+    height: 254px;
+    left: 11.06%;
+    right: 41.5%;
+    top: calc(50% - 254px/2 - 3126.5px);
+    
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 78px;
+    line-height: 141px;
+    /* or 141% */
+    
+    letter-spacing: -0.3px;
+    
+    color: #000000;
+
+}
+
+/* Showcase */
+#showcase
+{
+ position: absolute;
+ left: 2.56%;
+ right: -2.56%;
+ top: -0.04%;
+ bottom: 85.67%; 
+ mix-blend-mode: normal;
+ opacity: 0.54;
+ background:url('../Image/bg.png') no-repeat 0 -400px;
+
+}
+/*Bitmap*/
+Bitmap
+{
+    position: absolute;
+    left: 42.25%;
+    right: -7.25%;
+    top: 2.6%;
+    bottom: 88.99%;
+    
+    background: url('../Image/Bitmap.jpg');
+}
+
