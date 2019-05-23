@@ -4,7 +4,7 @@
 .bodyWeb
 {
     position: relative;
-    width: 1600px;
+    width: 1500px;
     height: 6957px;
     background: #FFFFFF;
 }
@@ -18,6 +18,15 @@
     overflow:hidden;
 }
 
+.bitmap
+{
+    position: absolute;
+    left: 60%;
+    right: -7.25%;
+    top: 10%;
+    bottom:60%;
+    background: #FFFFFF;
+}
 ul{
     margin:0;
     padding:0;
@@ -64,37 +73,6 @@ header nav
     
 }
 
-titlepos
-{ 
- position: absolute;
- left: 11.06%;
- right: 41.5%;
- top: 2.6%;
- bottom: 93.11%;
-    
-}
-/* titleshow*/
-titleshow
-{
-    position: absolute;
-    height: 254px;
-    left: 11.06%;
-    right: 41.5%;
-    top: calc(50% - 254px/2 - 3126.5px);
-    
-    font-family: Ubuntu;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 78px;
-    line-height: 141px;
-    /* or 141% */
-    
-    letter-spacing: -0.3px;
-    
-    color: #000000;
-
-}
-
 /* Showcase */
 #showcase
 {
@@ -106,17 +84,34 @@ titleshow
  mix-blend-mode: normal;
  opacity: 0.54;
  background:url('../Image/bg.png') no-repeat 0 -400px;
-
 }
-/*Bitmap*/
-Bitmap
+
+#photo
+{
+position: absolute;
+left: 58.5%;
+right: 9.06%;
+top: 3.15%;
+bottom: 89.39%;
+background: url('../Image/ptoho.jpg');
+}
+
+#showcase .thenextrecruitment
 {
     position: absolute;
-    left: 42.25%;
-    right: -7.25%;
-    top: 2.6%;
-    bottom: 88.99%;
+    height: 254px;
+    left: 11.06%;
+    right: 41.5%;
+    top: calc(50% - 254px/2 - 3126.5px);
     
-    background: url('../Image/Bitmap.jpg');
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 78px;
+    line-height: 110px;
+    /* or 141% */
+    
+    letter-spacing: -0.3px;
+    
+    color: #000000;
 }
-
