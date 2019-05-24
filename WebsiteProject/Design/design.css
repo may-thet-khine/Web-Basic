@@ -4,7 +4,7 @@
 .bodyWeb
 {
     position: relative;
-    width: 1500px;
+    width: 1600px;
     height: 6957px;
     background: #FFFFFF;
 }
@@ -13,19 +13,26 @@
 /* Global */
 .container
 {
-    width:80%;
+    widows: 80px;
+    width: 1600px;
+    height:1000px;
     margin:auto;
     overflow:hidden;
 }
 
+
 .bitmap
 {
     position: absolute;
-    left: 60%;
-    right: -7.25%;
-    top: 10%;
-    bottom:60%;
+    width:30%;
+    height:30%;
+    padding: 2px;
+    left: 58.5%;
+    right: -8.25%;
+    top:11%;
+    bottom:83.39%;
     background: #FFFFFF;
+
 }
 ul{
     margin:0;
@@ -79,39 +86,73 @@ header nav
  position: absolute;
  left: 2.56%;
  right: -2.56%;
- top: -0.04%;
+ top: 0.04%;
  bottom: 85.67%; 
  mix-blend-mode: normal;
  opacity: 0.54;
  background:url('../Image/bg.png') no-repeat 0 -400px;
 }
 
-#photo
-{
-position: absolute;
-left: 58.5%;
-right: 9.06%;
-top: 3.15%;
-bottom: 89.39%;
-background: url('../Image/ptoho.jpg');
-}
-
-#showcase .thenextrecruitment
+.button_1
 {
     position: absolute;
-    height: 254px;
+    left: 14.25%;
+    right: 75.81%;
+    top: 40%;
+    bottom: 91.25%;
+    background: #000000;
+    color:#ffffff;
+    height:50px;
+    width: 10%;
+   
+}
+
+.button_2
+{
+    position: absolute;
+    left: 26.69%;
+    right: 60.38%;
+    top: 40%;
+    bottom: 91.25%;
+    background: #000000; 
+    color:#ffffff;
+    height:50px;
+    width: 10%;
+}
+
+.thenextrecruitment
+{
+    position: absolute;
+    height: 10px;
     left: 11.06%;
     right: 41.5%;
-    top: calc(50% - 254px/2 - 3126.5px);
+    top:9%;
     
     font-family: Ubuntu;
     font-style: normal;
     font-weight: bold;
-    font-size: 78px;
-    line-height: 110px;
+    font-size: 50px;
+    line-height: 60px;
     /* or 141% */
     
     letter-spacing: -0.3px;
     
     color: #000000;
 }
+
+/*discription*/
+.discription
+{
+    position: absolute;
+    left: 14.25%;
+    right: 54.94%;
+    top: 50%;
+    bottom: 25.78%;
+    
+    border: 1px solid gray;
+    background-color:white;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    }
