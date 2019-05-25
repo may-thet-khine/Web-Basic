@@ -10,7 +10,7 @@
 }
 
 
-/* Global */
+/* Top*/
 .container
 {
     widows: 80px;
@@ -156,3 +156,201 @@ header nav
     padding-bottom: 50px;
     padding-left: 80px;
     }
+
+/* Latest Jobs */
+.Latestjobs
+{
+position: absolute;
+height: 70px;
+left: 12.94%;
+right: 67.5%;
+top:85%;
+
+font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 90px;
+/* or 180% */
+color: #2B3247;
+
+}
+/* Motivo Job Post */
+.MotivoJobPost
+{
+position: absolute;
+height: 14px;
+left: 12.94%;
+right: 67.19%;
+top:100%;
+
+font-family: Ubuntu;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+text-transform: uppercase;
+color: #2B3247;
+
+mix-blend-mode: normal;
+opacity: 0.5;
+}
+
+/* btn */
+.FindmoreBtn
+{
+position: absolute;
+left: 80.94%;
+right: 9.88%;
+top:96%;
+bottom: 83.3%;
+
+mix-blend-mode: normal;
+opacity: 10;
+}
+
+
+/* FullStack Developer */
+.FullStackDeveloper
+{
+position: absolute;
+height: 29px;
+left: 12.94%;
+right: 68.81%;
+top:110%;
+
+font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 29px;
+/* identical to box height */
+color: #2B3247;
+}
+
+ /* Line 5 */
+.line5
+{
+position: absolute;
+left: 12.94%;
+right: 88.41%;
+top: 105%;
+bottom: 81.98%;
+
+border: 3px solid #000000;
+}
+
+/* 6.000.000 - 8.000.00 */
+.amount
+{
+position: absolute;
+height: 21px;
+left: 12.94%;
+right: 73.81%;
+top:113%;
+
+font-family: Ubuntu;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+/* or 125% */
+color: #000000;
+mix-blend-mode: normal;
+opacity: 0.6;
+}
+
+/* The candidate in thi */
+.Candidate
+{
+position: absolute;
+left: 12.94%;
+right: 70.69%;
+top: 118%;
+bottom: 80.09%;
+
+font-family: Ubuntu;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+color: #000000;
+mix-blend-mode: normal;
+opacity: 0.6;
+}
+
+/* Rectangle 3 */
+.RectanglePHP
+{
+position: absolute;
+left: 12.94%;
+right: 86.5%;
+top: 128%;
+bottom: 79.4%;
+
+background: #2CA1F8;
+mix-blend-mode: normal;
+opacity: 0.8;
+border-radius: 11px;
+}
+
+/* PHP */
+.PHPtext
+{
+position: absolute;
+height: 22px;
+left: 14%;
+right: 87.44%;
+top:128.51%;
+
+font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 22px;
+/* identical to box height, or 183% */
+
+display: flex;
+align-items: center;
+color: #FFFFFF;
+}
+
+.LarvelBtn
+{
+ /* Rectangle 3 Copy */
+position: absolute;
+left: 17%;
+right: 82.25%;
+top: 128%;
+bottom: 79.4%;
+
+background: #2CA1F8;
+mix-blend-mode: normal;
+opacity: 0.8;
+border-radius: 11px;
+}
+
+/* Laravel */
+.Larveltext
+{
+position: absolute;
+height: 22px;
+left: 17.6%;
+right: 82.88%;
+top: 128.51%;
+
+font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 22px;
+/* identical to box height, or 183% */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+}
