@@ -1,23 +1,20 @@
 
-
-/* Motivo_WEB_PC */
-.bodyWeb
+body
 {
-    position: relative;
-    width: 1600px;
-    height: 6957px;
-    background: #FFFFFF;
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+
 }
 
-
-/* Top*/
-.container
+/* Global */
+.container1
 {
-    widows: 80px;
-    width: 1600px;
-    height:1000px;
+    width:80%;
     margin:auto;
     overflow:hidden;
+   
 }
 
 
@@ -50,10 +47,10 @@ header #top
 {
  
 position: absolute;
-height: 17px;
+height: 5px;
 left: 8.88%;
 right: 78.62%;
-top: calc(50% - 17px/2 - 3412px);
+top: 5%;
 
 font-family: Helvetica;
 font-size: 15px;
@@ -72,8 +69,8 @@ header nav
 {
     position: absolute;
     left: 65.19%;
-    right: -0.69%;
-    top: 0.75%;
+    right: -0.1%;
+    top: 5%;
     bottom: 98.92%;
     mix-blend-mode: normal;
     opacity: 0.8;
@@ -87,18 +84,17 @@ header nav
  left: 2.56%;
  right: -2.56%;
  top: 0.04%;
- bottom: 85.67%; 
  mix-blend-mode: normal;
  opacity: 0.54;
- background:url('../Image/bg.png') no-repeat 0 -400px;
+ 
 }
 
 .button_1
 {
     position: absolute;
-    left: 14.25%;
+    left: 11.06%;
     right: 75.81%;
-    top: 40%;
+    top: 45%;
     bottom: 91.25%;
     background: #000000;
     color:#ffffff;
@@ -110,9 +106,9 @@ header nav
 .button_2
 {
     position: absolute;
-    left: 26.69%;
+    left: 23.69%;
     right: 60.38%;
-    top: 40%;
+    top: 45%;
     bottom: 91.25%;
     background: #000000; 
     color:#ffffff;
@@ -123,16 +119,16 @@ header nav
 .thenextrecruitment
 {
     position: absolute;
-    height: 10px;
+    height:254px;
     left: 11.06%;
     right: 41.5%;
-    top:9%;
+    top:20%;
     
     font-family: Ubuntu;
     font-style: normal;
     font-weight: bold;
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 40px;
+    line-height: 40px;
     /* or 141% */
     
     letter-spacing: -0.3px;
@@ -144,17 +140,19 @@ header nav
 .discription
 {
     position: absolute;
-    left: 14.25%;
+    left: 11.06%;
     right: 54.94%;
-    top: 50%;
-    bottom: 25.78%;
+    top: 60%;
     
-    border: 1px solid gray;
+    
+    border: 1px solid white;
     background-color:white;
     padding-top: 30px;
-    padding-right: 30px;
-    padding-bottom: 50px;
+    padding-right: 60px;
+    padding-bottom: 20px;
     padding-left: 80px;
+    mix-blend-mode: normal;
+    opacity: 0.9;
     }
 
 /* Latest Jobs */
@@ -164,7 +162,7 @@ position: absolute;
 height: 70px;
 left: 12.94%;
 right: 67.5%;
-top:85%;
+top:100%;
 
 font-family: Ubuntu;
 font-style: normal;
@@ -182,7 +180,7 @@ position: absolute;
 height: 14px;
 left: 12.94%;
 right: 67.19%;
-top:100%;
+top:115%;
 
 font-family: Ubuntu;
 font-style: normal;
@@ -203,31 +201,12 @@ opacity: 0.5;
 position: absolute;
 left: 80.94%;
 right: 9.88%;
-top:96%;
-bottom: 83.3%;
+top:110%;
 
 mix-blend-mode: normal;
 opacity: 10;
 }
 
-
-/* FullStack Developer */
-.FullStackDeveloper
-{
-position: absolute;
-height: 29px;
-left: 12.94%;
-right: 68.81%;
-top:110%;
-
-font-family: Ubuntu;
-font-style: normal;
-font-weight: bold;
-font-size: 25px;
-line-height: 29px;
-/* identical to box height */
-color: #2B3247;
-}
 
  /* Line 5 */
 .line5
@@ -241,116 +220,513 @@ bottom: 81.98%;
 border: 3px solid #000000;
 }
 
-/* 6.000.000 - 8.000.00 */
-.amount
-{
-position: absolute;
-height: 21px;
-left: 12.94%;
-right: 73.81%;
-top:113%;
 
-font-family: Ubuntu;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 20px;
-/* or 125% */
-color: #000000;
-mix-blend-mode: normal;
-opacity: 0.6;
+.phpbtn
+{
+    height:22px;
+    border:0;
+    padding-left:12px;
+    padding-right:12px;
+    background:url("../Image/Rectangle\ 3\ Copy\ 2.png");
+    color:#ffffff;
+    
 }
 
-/* The candidate in thi */
-.Candidate
+.laravelbtn
+{
+    height:22px;
+    border:0;
+    padding-left:3px;
+    padding-right:3px;
+    background:url("../Image/Rectangle\ 3\ Copy\ 2.png");
+    color:#ffffff;
+}
+
+.awsbtn
+{
+    height:22px;
+    border:0;
+    padding-left:11px;
+    padding-right:11px;
+    background:url("../Image/Rectangle\ 3\ Copy\ 2.png");
+    color:#ffffff;
+}
+
+.FullStackDeveloper
+{
+    position: absolute;
+    left: 10.94%;
+    right: 0.1%;
+    top: 127%;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+}
+
+.indicate
 {
 position: absolute;
-left: 12.94%;
-right: 70.69%;
-top: 118%;
-bottom: 80.09%;
+left: 48%;
+right: 47.94%;
+top: 177%;
+}
+
+.divline
+{
+position: absolute;
+left: 4.75%;
+right: -4.94%;
+top: 183%;
+mix-blend-mode: normal;
+opacity: 0.4;
+border: 0px solid #979797;
+}
+
+.aboutUs
+{
+    position: absolute;
+    left: 8.69%;
+    right: 12.06%;
+    top: 196%;
+    
+}
+
+.motivoPrivate
+{
+  /* Motivo is a privatel */
+position: absolute;
+left: 14.25%;
+right: 52.88%;
+top: 215%;
+bottom: 69.67%;
 
 font-family: Ubuntu;
 font-style: normal;
 font-weight: 300;
 font-size: 14px;
-line-height: 20px;
-/* or 143% */
+line-height: 22px;
+/* or 157% */
+
+
 color: #000000;
+
 mix-blend-mode: normal;
-opacity: 0.6;
+opacity: 0.6; 
 }
 
-/* Rectangle 3 */
-.RectanglePHP
+.Logomoto
 {
+ /* logo_motivo */
 position: absolute;
-left: 12.94%;
-right: 86.5%;
-top: 128%;
-bottom: 79.4%;
+left: 62.94%;
+right: 12.06%;
+top: 193%;
+width:50px ;
+height:50px;
 
-background: #2CA1F8;
-mix-blend-mode: normal;
-opacity: 0.8;
-border-radius: 11px;
 }
 
-/* PHP */
-.PHPtext
+.readmorebtn
+{
+    position: absolute;
+    left: 13.25%;
+    right: 82.12%;
+    top: 250%;
+    
+    mix-blend-mode: normal;
+    opacity: 0.9;
+}
+
+.whychoseMoti
+{
+ /* Why they choose Moti */
+position: absolute;
+height: 70px;
+left: 28.75%;
+right: 23.31%;
+top:290%;
+
+font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 90px;
+/* or 180% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #2B3247;
+
+}
+
+.Candidates
+{
+ /* Candidates */
+position: absolute;
+height: 100px;
+left: 50.19%;
+right: 33.88%;
+top:302%;
+
+font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 100px;
+/* identical to box height, or 333% */
+
+text-transform: uppercase;
+
+color: #8C93AA;
+
+mix-blend-mode: normal;
+opacity: 0.2;
+}
+
+.training
+{
+ /* 01 */
+position: absolute;
+height: 44px;
+left: 8.69%;
+right: 3.56%;
+top: 335%;
+}
+
+.teaminclude
+{
+    
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    
+    color: #000000;
+    
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+ /* Blog-1*/
+.blog1
+{
+    position: relative;
+    height:801px;
+    width: 808px;
+    left: 7.12%;
+    right: 25.38%;
+    top: 425%;
+
+}
+
+ /* Blog-2 */
+.blog2
+{
+position: relative;
+height: 796px;
+width: 470px;
+left: 63.19%;
+right: 2.44%;
+top: 319%;
+
+}
+
+/* Object-1png */
+.blog3-bg
 {
 position: absolute;
-height: 22px;
-left: 14%;
-right: 87.44%;
-top:128.51%;
+width: 470px;
+height: 480px;
+left: 7.12%;
+right: 25.38%;
+top: 580%;
+}
+
+.blog4
+{
+position: absolute;
+width:808px;
+height:814px;
+left: 43.06%;
+right: 7.44%;
+top: 580%;
+}
+
+/* contact */
+.Contactcontainer
+{
+position: relative;
+left: 9.94%;
+right: 10%;
+top:490%;
+
+}
+
+/* contactform*/
+.Contactform
+{
+position: absolute;
+width:700px;
+height: 150px;
+left: 100%;
+right: 5%;
+top: 10%;
+
+}
+
+.Mapposition
+{
+    position: absolute;
+    left: 1.25%;
+    right: 0%;
+    top:302%;
+}
+
+.Linetype_6
+{ 
+position:absolute;
+left: 46.75%;
+right: 65%;
+top:20%;
+box-sizing: border-box;
+}
+
+.thinking
+{
+  /* If you are thinking */
+position: absolute;
+height: 75px;
+left: 1%;
+right: 20.69%;
+top:79%;
 
 font-family: Ubuntu;
 font-style: normal;
 font-weight: normal;
-font-size: 12px;
-line-height: 22px;
-/* identical to box height, or 183% */
+font-size: 16px;
+line-height: 25px;
+/* or 156% */
+
+text-align: justify;
+
+color: #8C93AA;
+}
+
+.googleImage
+{
+position: absolute;
+left: 0%;
+right: 50.25%;
+top:95%;
+bottom: 40.91%;
+
+mix-blend-mode: normal;
+opacity: 0.9;
+}
+
+/* by Fabian Mezarina */
+.FibanMezarina
+{
+position: absolute;
+height: 50px;
+left: 40.75%;
+right: 8.88%;
+top: 95%;
+
+font-family: Ubuntu;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 50px;
+/* identical to box height, or 250% */
 
 display: flex;
 align-items: center;
-color: #FFFFFF;
+text-align: justify;
+
+color: #8C93AA;
 }
 
-.LarvelBtn
+/* Motivo HeadQuarters */
+.motoHead
 {
- /* Rectangle 3 Copy */
 position: absolute;
-left: 17%;
-right: 82.25%;
-top: 128%;
-bottom: 79.4%;
+height: 192px;
+left: 1.94%;
+right: 60.62%;
+top: 10%;
 
-background: #2CA1F8;
+font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 60px;
+/* or 120% */
+
+
+color: #2B3247;
+
+}
+
+/* Seek for where we ar */
+.seekfor
+{
+  
+position: absolute;
+height: 14px;
+left: 1.19%;
+right: 60.69%;
+top: 70%;
+
+font-family: Ubuntu;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #2B3247;
+
 mix-blend-mode: normal;
-opacity: 0.8;
-border-radius: 11px;
+opacity: 0.5;
 }
 
-/* Laravel */
-.Larveltext
+/* Line 4 */
+.line4
 {
 position: absolute;
-height: 22px;
-left: 17.6%;
+left: 1.25%;
+right: 86.62%;
+top: 110%;
+
+}
+
+/* Meguro-ku, Tokyo Nak */
+.Meguro-ku
+{
+position: absolute;
+left: 1.25%;
+right: 10.88%;
+top: 124%;
+
+font-family: SanFranciscoDisplay;
+font-size: 26px;
+line-height: 36px;
+/* or 138% */
+
+color: #313541;
+}
+
+.informationFinal
+{
+    position: absolute;
+    height: 175.62px;
+    left: 18.38%;
+    right: 50.29%;
+    top: 690%;
+    
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 29px;
+    /* or 242% */
+    
+    letter-spacing: 1px;
+    
+    color: #000000;
+    
+}
+
+.partnerinfo
+{
+    position: absolute;
+    left: 70.69%;
+    right: 1%;
+    top:690%;
+    
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 29px;
+    /* or 242% */
+    
+    letter-spacing: 1px;
+    
+    color: #000000;
+ 
+}
+
+
+.Inform
+{
+position: absolute;
+height: 18.63px;
+left: 19.38%;
 right: 82.88%;
-top: 128.51%;
+top: 670%;
 
 font-family: Ubuntu;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 22px;
-/* identical to box height, or 183% */
-
-display: flex;
-align-items: center;
-
-color: #FFFFFF;
-
+font-style: bold;
+font-weight: 500;
+font-size: 24px;
+line-height: 16px;
+letter-spacing: 0.84px;
 }
+
+.partner
+{
+    position: absolute;
+    height: 19px;
+    left: 70.69%;
+    right: 2.12%;
+    top: 670%;
+    
+    font-family: Ubuntu;
+    font-style: bold;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 16px;
+    letter-spacing: 0.84px;
+    
+    color: #000000;
+}
+
+ /* SUBSCRIBE */
+.subscriber
+{
+position: absolute;
+height: 18.63px;
+left: 180%;
+right: 2.48%;
+top: 670%;
+
+font-family: Ubuntu;
+font-style: bold;
+font-weight: 500;
+font-size: 25px;
+line-height: 16px;
+letter-spacing: 0.84px;
+
+color: #000000;
+}
+
+.inputfinal
+{
+position: absolute;
+left: 159.94%;
+right: -118.46%;
+top: 700%;
+
+
+
+    
+}
+
+
