@@ -11,7 +11,7 @@ body
 /* Global */
 .container1
 {
-    width:80%;
+    width:100%;
     margin:auto;
     overflow:hidden;
    
@@ -20,16 +20,16 @@ body
 
 .bitmap
 {
-    position: absolute;
     width:30%;
     height:30%;
     padding: 2px;
-    left: 58.5%;
-    right: -8.25%;
-    top:11%;
-    bottom:83.39%;
-    background: #FFFFFF;
+    margin-top: 8%;
+    margin-right: 11%;
+    float: left;
 
+}
+.bitmap img{
+    border-radius: 50%;
 }
 ul{
     margin:0;
@@ -45,13 +45,6 @@ header li
 
 header #top
 {
- 
-position: absolute;
-height: 5px;
-left: 8.88%;
-right: 78.62%;
-top: 5%;
-
 font-family: Helvetica;
 font-size: 15px;
 line-height: 733%;
@@ -60,91 +53,73 @@ line-height: 733%;
 display: flex;
 align-items: center;
 letter-spacing: 5px;
-
+margin-left: 11%;
+width: 50%;
+float: left;
 color: rgb(0, 4, 7);
 
 }    
 
 header nav
 {
-    position: absolute;
-    left: 65.19%;
-    right: -0.1%;
-    top: 5%;
-    bottom: 98.92%;
     mix-blend-mode: normal;
     opacity: 0.8;
+    float: right;
+    margin-top: 2%;
     
 }
 
 /* Showcase */
-#showcase
+.showcase
 {
- position: absolute;
- left: 2.56%;
- right: -2.56%;
- top: 0.04%;
+
+ width:100%;
+ height: 1000px;
  mix-blend-mode: normal;
- opacity: 0.54;
- 
+ padding-top: 3%;
+ background-image: url('../Image/bg.png');
 }
 
 .button_1
 {
-    position: absolute;
-    left: 11.06%;
-    right: 75.81%;
-    top: 45%;
-    bottom: 91.25%;
     background: #000000;
     color:#ffffff;
     height:50px;
-    width: 10%;
-   
+    margin-top: 8%;
+    font-size: 20px;
+   border: 0;
 }
 
 .button_2
 {
-    position: absolute;
-    left: 23.69%;
-    right: 60.38%;
-    top: 45%;
-    bottom: 91.25%;
     background: #000000; 
     color:#ffffff;
     height:50px;
-    width: 10%;
+    margin-top: 8%;
+    font-size: 20px;
+    border: 0;
 }
 
 .thenextrecruitment
 {
-    position: absolute;
     height:254px;
-    left: 11.06%;
-    right: 41.5%;
-    top:20%;
-    
     font-family: Ubuntu;
     font-style: normal;
     font-weight: bold;
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 78px;
+    line-height: 55px;
     /* or 141% */
-    
-    letter-spacing: -0.3px;
-    
+    width: 45%;
     color: #000000;
+    float: left;
+    margin-top: 10%;
+    margin-left: 11%;   
+    letter-spacing: -0.3px;    
 }
 
 /*discription*/
 .discription
 {
-    position: absolute;
-    left: 11.06%;
-    right: 54.94%;
-    top: 60%;
-    
-    
     border: 1px solid white;
     background-color:white;
     padding-top: 30px;
@@ -152,42 +127,38 @@ header nav
     padding-bottom: 20px;
     padding-left: 80px;
     mix-blend-mode: normal;
-    opacity: 0.9;
+    float: left;
+    width: 30%;
+    margin-left: 11%;
+    margin-top:14%;
     }
 
 /* Latest Jobs */
 .Latestjobs
 {
-position: absolute;
-height: 70px;
-left: 12.94%;
-right: 67.5%;
-top:100%;
-
 font-family: Ubuntu;
 font-style: normal;
 font-weight: bold;
 font-size: 50px;
 line-height: 90px;
 /* or 180% */
+margin-top:5%;
+margin-left: 9%;
 color: #2B3247;
 
 }
 /* Motivo Job Post */
 .MotivoJobPost
 {
-position: absolute;
-height: 14px;
-left: 12.94%;
-right: 67.19%;
-top:115%;
-
 font-family: Ubuntu;
 font-style: normal;
 font-weight: 500;
 font-size: 12px;
 line-height: 14px;
 /* identical to box height */
+
+margin-top:0.5%;
+margin-left: 9%;
 text-transform: uppercase;
 color: #2B3247;
 
@@ -198,13 +169,10 @@ opacity: 0.5;
 /* btn */
 .FindmoreBtn
 {
-position: absolute;
-left: 80.94%;
-right: 9.88%;
-top:110%;
-
 mix-blend-mode: normal;
 opacity: 10;
+margin-top:-2%;
+float: right;
 }
 
 
@@ -254,12 +222,11 @@ border: 3px solid #000000;
 
 .FullStackDeveloper
 {
-    position: absolute;
-    left: 10.94%;
-    right: 0.1%;
-    top: 127%;
+    margin-top: 5%;
     mix-blend-mode: normal;
     opacity: 0.9;
+    margin-left:2%;
+    width:100%;
 }
 
 .indicate
